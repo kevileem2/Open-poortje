@@ -276,7 +276,7 @@ const Monster = ({ history }) => {
           }}
           onClick={handleRedirectNext}
         >
-          <FontAwesomeIcon icon={faChevronCircleRight} size="3x" color="#000" />
+          <FontAwesomeIcon icon={faChevronCircleRight} size="3x" color="#FFF" />
         </div>
         <div
           style={{
@@ -290,7 +290,7 @@ const Monster = ({ history }) => {
           }}
           onClick={handleRedirectPrevious}
         >
-          <FontAwesomeIcon icon={faChevronCircleLeft} size="3x" color="#000" />
+          <FontAwesomeIcon icon={faChevronCircleLeft} size="3x" color="#FFF" />
         </div>
         <div
           style={{
@@ -304,7 +304,7 @@ const Monster = ({ history }) => {
           }}
           onClick={handleSaveToFirebase}
         >
-          <FontAwesomeIcon icon={faSave} size="3x" color="#000" />
+          <FontAwesomeIcon icon={faSave} size="3x" color="#FFF" />
         </div>
       </Container>
       {Boolean(getHeight) && (

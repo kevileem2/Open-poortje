@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import Lottie from "react-lottie"
 
 export const Container = styled.div`
   z-index: 2;
@@ -61,12 +60,4 @@ export const CloseModal = styled.a`
   background: #fff;
   border: 1px solid #222;
   border-radius: 18px;
-`
-
-export const Monster = styled(Lottie)`
-  z-index: 3;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
 `

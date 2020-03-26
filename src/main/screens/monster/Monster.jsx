@@ -105,7 +105,9 @@ const Monster = ({ history }) => {
       })
   }
 
-  const handleRedirectNext = () => {}
+  const handleRedirectNext = () => {
+    history.push("/leefgroep")
+  }
 
   const handleRedirectPrevious = () => {
     history.push("/home")

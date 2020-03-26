@@ -39,6 +39,9 @@ const Navigation = () => {
           <ul>
             <a href="/zorgen">Zorgen</a>
           </ul>
+          <ul>
+            <a href="/leefgroep">Leefgroep</a>
+          </ul>
         </SectionData>
         <Section backgroundColor="#F1c926">
           <p>
